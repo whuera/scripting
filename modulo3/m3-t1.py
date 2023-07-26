@@ -31,3 +31,24 @@ def completa(dct1, dct2):
 dict1 = {'bookA':1,'bookB':2,'bookC':3}
 dict2 = {'bookC':2,'bookD':4,'bookE':5}
 completa(dict1,dict2)
+
+## Script 1
+mylist = list((1,2,3,4))
+print(mylist)
+print(type(mylist))
+
+mytuple = tuple(mylist)
+print(mytuple)
+print(type(mytuple))
+
+## Script 2
+
+lista1 = list(('nombre', 'edad', 'direccion'))
+lista2 = list(('Juan','30','Valparaiso'))
+
+clave_tupla = tuple(lista1)
+valor_tupla = tuple(lista2)
+
+dicc = dict(zip(clave_tupla, valor_tupla))
+print(dicc)
+print(type(dicc))
